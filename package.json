@@ -1,19 +1,24 @@
 {
   "name": "aula02",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este é o projeto NodeJS básico",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bivecchia/aula02.git"
   },
-  "author": "",
+  "author": "Bianca",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bivecchia/aula02/issues"
   },
-  "homepage": "https://github.com/bivecchia/aula02#readme"
+  "homepage": "https://github.com/bivecchia/aula02#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
